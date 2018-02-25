@@ -3,11 +3,11 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: {
-    site: "./source/index.js"
+    site: "./frontend/index.js"
   },
   resolve: {
     alias: {
-      components: __dirname + "/source/components"
+      components: __dirname + "/frontend/components"
     }
   },
   output: {
@@ -29,7 +29,7 @@ module.exports = {
             { loader: "css-loader", options: { importLoaders: 1 } },
             "postcss-loader"
           ],
-          publicPath: __dirname + "/source/stylesheets/site.scss"
+          publicPath: __dirname + "/frontend/stylesheets/site.scss"
         })
       }
     ]
