@@ -1,5 +1,7 @@
 module ButtonComponent
-  def test
-    "HELLO"
+  extend ComponentHelper
+
+  def color
+    "red"
   end
 end
