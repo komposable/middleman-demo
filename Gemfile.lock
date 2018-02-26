@@ -1,5 +1,6 @@
-PATH
-  remote: ../middleman-komponent
+GIT
+  remote: https://github.com/komposable/middleman-komponent.git
+  revision: 5e66bd5eb8b99c24ff1192583836d11020cf8812
   specs:
     middleman-komponent (0.0.1)
       middleman-core (>= 4.2.1)
